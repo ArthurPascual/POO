@@ -3,10 +3,10 @@ public class Casa {
     private double valor;
     private String endereco;
 
-    public Casa(String endereco, double valor, int tamanho) {
-        this.endereco = endereco;
-        this.valor = valor;
+    public Casa(int tamanho, double valor, String endereco) {
         this.tamanho = tamanho;
+        this.valor = valor;
+        this.endereco = endereco;
     }
 
     public int getTamanho() {
